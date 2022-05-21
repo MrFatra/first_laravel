@@ -23,3 +23,7 @@ Route::get('/about', function () {
         "profesi" => "Backend Dev"
     ]);
 });
+
+Route::get('/contact', function () {
+    return view('asdasd');
+});
