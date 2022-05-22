@@ -14,16 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        "title" => "Homepage"
+    ]);
 });
 
 Route::get('/about', function () {
     return view('about', [
+        "title" => "About ME",
         "nama" => "Ramadhan Fatra",
         "profesi" => "Backend Dev"
     ]);
 });
 
 Route::get('/blog', function () {
-    return view('post');
+    return view('post', [
+        "title" => "My Post"
+    ]);
 });
