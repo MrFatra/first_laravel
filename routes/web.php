@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/about', function () {
@@ -24,6 +24,6 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/contact', function () {
-    return view('asdasd');
+Route::get('/blog', function () {
+    return view('post');
 });

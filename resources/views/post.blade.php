@@ -1,6 +1,5 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>{{ $nama }}</h1>
-    <h2>{{ $profesi }}</h2>
+    <h1>My Post is Here!</h1>
 @endsection
